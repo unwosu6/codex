@@ -39,7 +39,7 @@ fromServer("server");
 fromClient("client");
 
 // Create WebSocket connection.
-const socket = new WebSocket("ws://127.0.0.1:5500/", "tcp");
+const socket = new WebSocket("ws://127.0.0.1:50000/", "tcp");
 // const socket = new WebSocket("wss://" + location.hostname + ":50022/"); // wants 5500
 // const socket = new WebSocket('wss://localhost:50000');
 
